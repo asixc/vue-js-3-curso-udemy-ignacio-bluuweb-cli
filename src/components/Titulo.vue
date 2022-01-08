@@ -1,20 +1,20 @@
 <template>
-  <div class="hello">
+  <div>
     <h1>{{ msg }}</h1>
-    <Test msg="Mi primera Vue app con VUE CLI" />
+    <Subtitulo  msg="Bienvenido a su cuenta"/>
   </div>
 </template>
 
 <script>
 
-import Test from './Test'
+import Subtitulo from './Subtitulo'
 export default {
-  name: 'HelloWorld',
+  name: 'Titulo',
   props: {
     msg: String
   },
   components: {
-    Test
+    Subtitulo
   }
 }
 </script>
